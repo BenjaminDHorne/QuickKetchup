@@ -5,7 +5,7 @@ def get_index(header, name):
     try:
         ind = header.index(name)
     except:
-        print "Typo in Name"
+        print("Typo in Name")
         return "Error"
     return ind
 
